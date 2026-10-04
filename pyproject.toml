@@ -1,0 +1,9 @@
+[project]
+name = "raftsim"
+version = "0.1.0"
+description = "Raft consensus with deterministic simulation testing"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
